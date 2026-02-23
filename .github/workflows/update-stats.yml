@@ -1,0 +1,48 @@
+name: Update README Stats
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Update statistics
+      run: |
+        # Count files
+        total_files=$(find . -name "*.md" -type f | wc -l)
+
+        # Count words
+        total_words=$(find . -name "*.md" -type f -exec wc -w {} + | tail -1 | awk '{print $1}')
+
+        # Count lines
+        total_lines=$(find . -name "*.md" -type f -exec wc -l {} + | tail -1 | awk '{print $1}')
+
+        # Count code blocks
+        total_blocks=$(grep -r "^\`\`\`" --include="*.md" . | wc -l)
+
+        echo "📊 OpenMind 统计信息" > stats.md
+        echo "" >> stats.md
+        echo "- 📄 总文档数: $total_files" >> stats.md
+        echo "- 📝 总字数: $total_words" >> stats.md
+        echo "- 📊 总行数: $total_lines" >> stats.md
+        echo "- 💻 代码块数: $total_blocks" >> stats.md
+
+        cat stats.md
+
+    - name: Commit changes
+      run: |
+        git config user.name 'github-actions[bot]'
+        git config user.email 'github-actions[bot]@users.noreply.github.com'
+        git add stats.md || true
+        git diff --staged --quiet || git commit -m "chore: 更新统计信息 [skip ci]"
+        git push
