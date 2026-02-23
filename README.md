@@ -188,8 +188,9 @@ done
 
 ## 📮 联系方式
 
-- **Issues**: [GitHub Issues](https://github.com/your-username/OpenMind/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/OpenMind/discussions)
+- **邮箱**: [Zhifeng_Niu@outlook.com](mailto:Zhifeng_Niu@outlook.com)
+- **Issues**: [GitHub Issues](https://github.com/Zhifeng-Niu/OpenMind/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Zhifeng-Niu/OpenMind/discussions)
 
 ## 🙏 致谢
 
