@@ -188,7 +188,7 @@ done
 
 ## 📮 联系方式
 
-- **邮箱**: [Zhifeng_Niu@outlook.com](mailto:Zhifeng_Niu@outlook.com)
+- **邮箱**: Zhifeng_Niu@outlook.com
 - **Issues**: [GitHub Issues](https://github.com/Zhifeng-Niu/OpenMind/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/Zhifeng-Niu/OpenMind/discussions)
 
