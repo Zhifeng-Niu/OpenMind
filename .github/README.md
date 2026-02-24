@@ -216,12 +216,11 @@ less README.md
 
 ---
 
-## 📞 联系方式
-
-- **GitHub**: [https://github.com/YOUR_USERNAME/OpenMind](https://github.com/YOUR_USERNAME/OpenMind)
-- **Issues**: [https://github.com/YOUR_USERNAME/OpenMind/issues](https://github.com/YOUR_USERNAME/OpenMind/issues)
-- **Discussions**: [https://github.com/YOUR_USERNAME/OpenMind/discussions](https://github.com/YOUR_USERNAME/OpenMind/discussions)
-
+ ## 📮 联系方式                                                                
+                                                                                
+  - **邮箱**: Zhifeng_Niu@outlook.com                                           
+  - **Issues**: [GitHub Issues](https://github.com/Zhifeng-Niu/OpenMind/issues)
+  - **Discussions**: [GitHub Discussions](https://github.com/Zhifeng-Niu/OpenMind/discussions)
 ---
 
 ## 📄 许可证
