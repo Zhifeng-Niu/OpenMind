@@ -162,6 +162,12 @@ done
 - **Issues**: [GitHub Issues](https://github.com/Zhifeng-Niu/OpenMind/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/Zhifeng-Niu/OpenMind/discussions)
 
+## 🙏 致谢
+
+我们向所有为 AI Agent 领域做出贡献的研究者、开发者和社区致以最诚挚的感谢。
+
+详见 [致谢页面](ACKNOWLEDGMENTS.md)。
+
 ---
 
 <div align="center">

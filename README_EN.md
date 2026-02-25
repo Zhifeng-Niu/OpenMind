@@ -216,8 +216,9 @@ Please check [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## 🙏 Acknowledgments
 
-- Claude Code - Powerful AI-assisted development tool
-- Open Source Community - Countless pioneers' contributions
+We extend our deepest gratitude to all researchers, developers, and communities who have contributed to the AI Agent field.
+
+See [Acknowledgments](ACKNOWLEDGMENTS.md) for details.
 
 ---
 
