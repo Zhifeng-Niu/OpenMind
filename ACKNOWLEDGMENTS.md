@@ -35,6 +35,12 @@ The OpenMind project builds upon the work of countless researchers, developers, 
 - 构建了强大的 LLM 应用开发框架
 - 🌐 https://github.com/langchain-ai/langchain
 
+### OpenClaw
+- **Peter Steinberger** - OpenClaw 创始人
+- 开创了本地端 AI Agent 的先河，实现了真正的"数字分身"
+- 推动了 OpenClaw Style 部署范式的普及
+- 🌐 https://github.com/OpenClaw
+
 ---
 
 ## 🚀 长上下文与注意力机制研究者 / Long Context & Attention Researchers
